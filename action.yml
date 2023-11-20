@@ -15,6 +15,6 @@ inputs:
 
 runs:
   using: "docker"
-  image: "docker://plantuml/plantuml:1.2023"
+  image: "docker://holowinski/plantuml:1.2021.6"
   args:
     - ${{ inputs.args }}
